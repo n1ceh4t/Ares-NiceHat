@@ -2,9 +2,9 @@
 
 Fork of https://github.com/sweetsoftware/Ares
 
-![Screenshot](Images/ss1.jpg?raw=true "Define User")
-![Screenshot](Images/ss2.jpg?raw=true "Client List")
-![Screenshot](Images/ss3.jpg?raw=true "Shell")
+![Screenshot](Images/ss1.png?raw=true "Define User")
+![Screenshot](Images/ss2.png?raw=true "Client List")
+![Screenshot](Images/ss3.png?raw=true "Shell")
 
 
 + Added username to login for 'better security'
