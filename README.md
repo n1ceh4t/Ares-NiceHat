@@ -13,9 +13,14 @@ Fork of https://github.com/sweetsoftware/Ares
   
   As far as I can tell:
   If anything, I removed (or have yet to implement) many features of the bot itself.
+  
 
 ![Screenshot](Images/ss1.png?raw=true "Define User")
+
+
 ![Screenshot](Images/ss2.png?raw=true "Client List")
+
+
 ![Screenshot](Images/ss3.png?raw=true "Shell")
 
 
