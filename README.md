@@ -2,12 +2,6 @@
 
 Fork of https://github.com/sweetsoftware/Ares
 
-EDIT: I hadn't realized at first, but this fork uses Python 3.
-
-![Screenshot](Images/ss1.png?raw=true "Define User")
-![Screenshot](Images/ss2.png?raw=true "Client List")
-![Screenshot](Images/ss3.png?raw=true "Shell")
-
 + Ported Server and Client to Python 3
 + Added username to login for 'better security'
 + C++ client source included.
@@ -19,6 +13,12 @@ EDIT: I hadn't realized at first, but this fork uses Python 3.
   
   As far as I can tell:
   If anything, I removed (or have yet to implement) many features of the bot itself.
+
+![Screenshot](Images/ss1.png?raw=true "Define User")
+![Screenshot](Images/ss2.png?raw=true "Client List")
+![Screenshot](Images/ss3.png?raw=true "Shell")
+
+
   
 + Bugs
   - currently the crypts and decrypts functions have broken the username/hostname/os POST request data (server-side I believe. This is on the to-do list.)
