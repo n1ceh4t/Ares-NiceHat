@@ -1,0 +1,363 @@
+body {
+  display: grid;
+  justify-content: center;
+  align-items: start;
+  justify-items: stretch;
+  background:url("../images/bkg.png");
+  color: #eaeaea;
+  font: 16px;
+  line-height: 1.5;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  z-index: 1;
+}
+
+html {
+
+}
+
+/* General & 'Reset' Stuff */
+
+.container {
+  width: 80%;
+  margin-top: auto;
+  margin-bottom: 25px;
+  margin-left: 100px;
+  margin-right: 100px;
+  min-width: 850px;
+  padding: 25px;
+  position: relative;
+  z-index: 1;
+}
+}
+.container2 {
+  width: 80%;
+  margin-left: 100px;
+  margin-right: 100px;
+  min-width: auto;
+  
+}
+
+
+section {
+  display: block;
+  position: relative;
+  z-index: 1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 20px;
+}
+
+li {
+  line-height: 1.4 ;
+}
+
+/* Header, <header>
+   header   - container
+   h1       - project name
+   h2       - project description
+*/
+
+header {
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.1);
+  width: 99%;
+  border: 1px outset #80BBE8;
+  margin: auto;
+  min-width: 1000px;
+  padding-bottom: 25px;
+  position: relative;
+
+}
+
+header h1 {
+
+  font-size: 30px;
+  line-height: 1.5;
+  margin: 0 0 0 -40px;
+  font-weight: bold;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  color: #80BBE8;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
+               0 0 5px rgba(128, 163, 232, 0.2),
+               0 0 10px rgba(128, 163, 232, 0.2);
+  letter-spacing: -1px;
+  -webkit-font-smoothing: antialiased;
+}
+
+header h1:before {
+  content: "~/";
+  font-size: 26px;
+}
+
+header h2 {
+  font-size: 18px;
+  font-weight: 300;
+  color: #666;
+}
+
+#downloads .btn {
+  display: inline-block;
+  text-align: center;
+  margin: 0;
+}
+
+/* Main Content
+*/
+
+#main_content {
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+section img {
+  max-width: 100%
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  color: #80BBE8;
+  letter-spacing: -0.03em;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
+               0 0 5px rgba(181, 232, 83, 0.1),
+               0 0 10px rgba(181, 232, 83, 0.1);
+}
+
+h4 {
+  font-weight: normal;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  color: #80BCC2;
+  letter-spacing: -0.03em;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
+               0 0 5px rgba(181, 232, 83, 0.1),
+               0 0 10px rgba(181, 232, 83, 0.1);
+}
+
+form1 {
+  margin: auto;
+  min-width: 800px;
+  width: 90%;
+  text-align: center;
+  display: block;
+  background: -webkit-linear-gradient(top, rgba(40, 40, 40, 0.3), rgba(35, 35, 35, 0.3) 50%, rgba(10, 10, 10, 0.3) 50%, rgba(0, 0, 0, 0.3));
+  padding: 8px 18px;
+  border-radius: 50px;
+  border: 2px solid rgba(0, 0, 0, 0.7);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.7);
+  border-top: 2px solid rgba(0, 0, 0, 1);
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+#main_content h1 {
+  font-size: 30px;
+}
+
+#main_content h2 {
+  font-size: 24px;
+}
+
+#main_content h3 {
+  font-size: 18px;
+}
+
+#main_content h4 {
+  font-size: 14px;
+  
+}
+
+#main_content h5 {
+  font-size: 12px;
+  text-transform: uppercase;
+  margin: 0 0 5px 0;
+}
+
+#main_content h6 {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #999;
+  margin: 0 0 5px 0;
+}
+
+input[type="text"], textarea {
+
+  background-color : #d1d1d1; 
+
+}
+
+dt {
+  font-style: italic;
+  font-weight: bold;
+}
+
+ul li {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  list-style: none;
+  position: relative;
+  z-index: 1;
+}
+
+ul li:before {
+  content: ">>";
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-size: 13px;
+  color: #80BBE8;
+  width: 100%;
+  line-height: 16px;
+  position: relative;
+  z-index: 2;
+}
+
+blockquote {
+  color: #aaa;
+  padding-left: 10px;
+  border-left: 1px dotted #666;
+}
+
+pre {
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 10px;
+  font-size: 14px;
+  color: #80BBE8;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  text-wrap: normal;
+  overflow: scroll;
+  height: 500px;
+}
+
+table {
+  width: 100%;
+  margin: 0 0 20px 0;
+}
+
+th {
+  text-align: left;
+  border-bottom: 1px dashed #80BBE8;
+  padding: 5px 10px;
+}
+
+td {
+  padding: 5px 10px;
+}
+
+hr {
+  height: 0;
+  border: 0;
+  border-bottom: 1px dashed #80BBE8;
+  color: #80BBE8;
+}
+
+/* Buttons
+*/
+
+
+.dropdown {
+  z-index: 2;
+  position: initial;
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  justify-content: center;
+  background-color: #80BBE8;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 2;
+  position: initial;
+}
+
+.dropdown:hover .dropdown-content {
+  justify-content: 0;
+  display: inline-block;
+  position: inherit;
+}
+
+.btn {
+  display: inline-block;
+  background: -webkit-linear-gradient(top, rgba(40, 40, 40, 0.3), rgba(35, 35, 35, 0.3) 50%, rgba(10, 10, 10, 0.3) 50%, rgba(0, 0, 0, 0.3));
+  padding: 8px 18px;
+  border-radius: 50px;
+  border: 2px solid rgba(0, 0, 0, 0.7);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.7);
+  border-top: 2px solid rgba(0, 0, 0, 1);
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  position: relative;
+  z-index: 1;
+}
+
+.btn:hover {
+  background: -webkit-linear-gradient(top, rgba(40, 40, 40, 0.6), rgba(35, 35, 35, 0.6) 50%, rgba(10, 10, 10, 0.8) 50%, rgba(0, 0, 0, 0.8));
+}
+
+.btn .icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin: 1px 8px 0 0;
+  float: center;
+}
+
+
+
+.btn-github .icon {
+  opacity: 0.6;
+  background: url("../images/blacktocat.png") 0 0 no-repeat;
+}
+
+/* Links
+   a, a:hover, a:visited
+*/
+
+a {
+  color: #63c0f5;
+  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+}
+
+none {
+	
+}
+
+/* Clearfix */
+
+.cf:before, .cf:after {
+  content:"";
+  display:table;
+}
+
+.cf:after {
+  clear:both;
+}
+
+.cf {
+  zoom:1;
+}
+
+#msg-term-update {
+	cursor:pointer;
+	margin:auto;
+	display:none;
+	width:250px;
+	color:black;
+	background:#80BBE8;
+	padding:3px;
+	text-align:center;
+	border-radius:5px;
+}
