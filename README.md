@@ -27,9 +27,13 @@ Updates will be sparse, if any are made.
 
 Usage:
     To set up the server:
+    
         Nicehat@Nicehat:Python/server_encryption_test$ python3 -m pip install -r requirements.txt
+        
         Nicehat@Nicehat:Python/server_encryption_test$ python3 ares.py initdb
+        
         Nicehat@Nicehat:Python/server_encryption_test$ python3 ares.py runserver -h 0.0.0.0 -p 8080
+        
         Navigate to http://127.0.0.1:8080 to set up username and password.
         
     Running the server on windows will require some tweaking but is possible as far as the python modules go IIRC. 
