@@ -37,7 +37,7 @@ int IDLE_TIME = 720;
 int FAILED_CONNECTIONS = 0;
 int MAX_FAILED_CONNECTIONS = 10;
 int FETCH_NEW_CONFIG = 120;
-std::string backup = "http://7days.quest/";
+std::string backup = "http://backup.server/";
 
 std::string getOsName() {
   #ifdef _WIN32
