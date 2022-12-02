@@ -32,7 +32,7 @@ Usage:
         
         Nicehat@Nicehat:Python/server_encryption_test$ python3 ares.py initdb
         
-        Nicehat@Nicehat:Python/server_encryption_test$ python3 ares.py runserver -h 0.0.0.0 -p 8080
+        Nicehat@Nicehat:Python/server_encryption_test$ python3 ares.py runserver -h 0.0.0.0 -p 8080 --threaded
         
         Navigate to http://127.0.0.1:8080 to set up username and password.
         
