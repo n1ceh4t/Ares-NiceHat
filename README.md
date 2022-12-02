@@ -8,7 +8,7 @@ EDIT: I hadn't realized at first, but this fork uses Python 3.
 ![Screenshot](Images/ss2.png?raw=true "Client List")
 ![Screenshot](Images/ss3.png?raw=true "Shell")
 
-
++ Ported Server and Client to Python 3
 + Added username to login for 'better security'
 + C++ client source included.
   - Currently working on a windows port written in native c++
