@@ -5,8 +5,7 @@ Fork of https://github.com/sweetsoftware/Ares
 + Ported Server and Client to Python 3
 + Added username to login for 'better security'
 + C++ client source included.
-  - Currently working on a windows port written in native c++
-  - Credit to the http request library goes to: https://github.com/elnormous/HTTPRequest
+  - Uses http request library: https://github.com/elnormous/HTTPRequest
   - Reworked the UI a tad.
   - Simple obfuscation for the requests between client and server.
   - Added catch-all for IP addresses whose location were unable to be determined.
@@ -35,7 +34,6 @@ it would be irresponsible to release.
 
 This is a WIP for self-study. 
 Use at your own risk. 
-Updates will be sparse, if any are made.
 
 Usage:
     To set up the server:
@@ -53,5 +51,5 @@ Usage:
     You will have to manually define the server/port in the source files for the bot(s.)
 
 It's difficult to recall all the changes I made to the original if I'm being honest. 
-Many thanks to https://github.com/sweetsoftware/ for giving me something interesting and fun to hyperfocus on.
+Many thanks to https://github.com/sweetsoftware/ for giving me something interesting and fun to focus on.
 
