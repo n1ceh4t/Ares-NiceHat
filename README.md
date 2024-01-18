@@ -53,3 +53,4 @@ Usage:
 It's difficult to recall all the changes I made to the original if I'm being honest. 
 Many thanks to https://github.com/sweetsoftware/ for giving me something interesting and fun to focus on.
 
+This repo is about a dozen commits behind testing, and is hosted for archival and educative purposes. Feel free to reach out to me for more information.
