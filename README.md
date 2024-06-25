@@ -3,7 +3,7 @@
 Fork of https://github.com/sweetsoftware/Ares
 
 + Ported Server and Client to Python 3
-+ Added username to login for 'better security'
++ Added username to login
 + C++ client source included.
   - Uses http request library: https://github.com/elnormous/HTTPRequest
   - Reworked the UI a tad.
@@ -25,9 +25,9 @@ Fork of https://github.com/sweetsoftware/Ares
 
   
 + Bugs
-  - currently the crypts and decrypts functions have broken the username/hostname/os POST request data (server-side I believe. This is on the to-do list.)
+  - currently the crypts and decrypts functions have broken the username/hostname/os POST request data (server-side I believe.)
 
-I may include files/instructions for scantime obfuscation (for at least the python client) in the future.
+I will not include files/instructions for scantime obfuscation (for at least the python client) in the future.
 
 I have omitted many added features and the windows build entirely (using python and nuitka, native c++ WIP) because frankly,
 it would be irresponsible to release. 
@@ -53,4 +53,4 @@ Usage:
 It's difficult to recall all the changes I made to the original if I'm being honest. 
 Many thanks to https://github.com/sweetsoftware/ for giving me something interesting and fun to focus on.
 
-This repo is about a dozen commits behind testing, and is hosted for archival and educative purposes. Feel free to reach out to me for more information.
+This repo is hosted for archival and educative purposes.
