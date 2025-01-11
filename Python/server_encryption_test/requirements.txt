@@ -17,7 +17,7 @@ olefile==0.44
 pefile==2017.11.5
 #Pillow==4.3.0
 pygeoip==0.3.2
-requests==2.18.4
+requests==2.32.2
 SQLAlchemy==1.1.15
 urllib3==1.22
 Werkzeug==0.12.2
